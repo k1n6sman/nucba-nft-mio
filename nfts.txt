@@ -1,0 +1,277 @@
+html:
+nft nucba:
+header:
+img class:"logo": (logo)
+nav:ul y li (a)
+img class:"carrito-icon"(carrito de compras)
+
+main:
+section id: "hero":
+div
+h1(descubre la nueva era de cripto)
+p(texto) span(nucba)
+a(bc nucber)
+div class"hero-cart":
+img(btc ejemplo) div "hero-card-info": div"hero-card-top" 
+div "hero-card-bottom" "hero-card-creator" img(creator) div"creator-info"
+div"hero-card-price"
+
+section id: info:
+h2(crea, aprende y comparte los nfts)
+div class: "hero-card-container": div class: "info-card" img (icono nft) h3(configura tu wallet) p(texto) h3(agrega tus nft) p(texto) h3(coleccionalos) p(texto)
+
+footer:
+
+
+css:
+:root(
+--background: black
+--primary: blue)
+
+*{
+margin 0;
+padding 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+
+
+header{
+background: var(--secondary);
+width: 100%;
+display: flex;
+justify.content: space-between;
+align-items: center;
+height: 65px;
+padding: 0px 30px;
+position: fixed;
+top: 0;
+
+
+
+.logo{
+height: 40%
+
+.navbar, navbar-list{
+display flex;
+align-items: center;
+justify-content: center;
+
+
+.navbar{
+gap: 150px
+
+navbar-list{
+gap: 30px
+
+.navbar-list li:first-child > a{
+color: var(--text-white);
+font-weight: 600
+
+
+.cart-icon{
+border: 1px solid var(--bg-electric);
+padding: 12px 18px;
+margin-top: 3px;
+border-radius: 10px;
+font-weight: 600; 
+cursor: pointer;
+
+main{
+background: var(--background);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: var(--text-white);
+
+
+
+#hero{
+margin-top: 65px;
+padding:70px 0;
+max-width: 1200px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+
+.hero-info{
+display: flex
+flex-direction: column
+gap: 20px
+width: 50%;
+
+
+.hero-info h1{
+font.size: 48px;
+width: 80%;
+min-width: 500px;
+font-weight 800;
+color: var(--text-white);
+
+
+.hero-info p > span{
+font-weight: 800;
+
+.hero-info a{
+color: var(--text-white);
+background: var(--primary);
+width:120px;
+padding: 8px 0;
+border-radius: 10px;
+font-size: 14px;
+text-aling: center;
+
+
+.hero-card{
+width: 300px
+background: var(--secondary);
+padding: 20px;
+border-radius: 15px;
+display: flex
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+
+
+
+.hero-card-info{
+display: flex;
+flex-direction: column;
+gap: 10px
+
+
+.hero-card-top{
+display: flex;
+aling-items: center;
+justify-content: space-around;
+gap: 10px;
+
+
+.hero-card-top h3{
+font-weigth: 600
+font-size: 15px
+white-space:nowrap
+overflow: hidden;
+text-overflow: ellipsis;
+
+.hero-card-top span{
+background-color: var(--primary)
+text-aling: center
+width: 50px
+padding: 3px 0;
+font-size: 14px
+border-radius: 10px
+
+
+.hero-card-bottom{
+display: flex
+justifu-content: space-between;
+
+
+.hero-card-creator{
+display: flex
+align-items: center
+gap: 5px
+
+.hero-card-creator img{
+heiht: 40px
+width: 40px
+
+
+.creator-info p:first-child, .hero-card-price p {
+color: var(--text-grey)
+font-size: 12px;
+font-weight: 300;
+
+
+.hero-card-price{
+display: flex;
+flex-direction: column;
+justifu-content: center;
+align-items: end;
+
+
+.hero-card-price span, creator-info p:last-child{
+font-size: 14px;
+
+.hero-card-price span{
+font-weight: 800;
+
+
+
+#info{
+padding: 70px;
+max-width: 1200px
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 80px;
+
+
+#info h2{
+font-size: 32px;
+font-weight: 800;
+
+.info-card.container{
+display: flex;
+justify-content: space-around;
+aling-items: center;
+flex-wrap: wrap;
+gap: 20px;
+
+
+.info-card{
+width: 300px;
+height: 300px;
+padding: 40px 30px;
+display: flex;
+align-items: center;
+text-aling: center;
+background-color: var(--secondary);
+border-radius: 20px;
+gap: 20px;
+
+
+
+.info-card img{
+width: 50px
+
+
+.info-card h3{
+font-weiht: 600;
+font-size: 10px;
+
+
+.info-card p{
+font-size: 14px;
+font-weight: 300;
+color: var(--text-gray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
